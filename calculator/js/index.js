@@ -3,9 +3,6 @@ const lastCalc = document.querySelector("#last-calc");
 const result = document.querySelector("#result");
 const button = document.querySelectorAll("#keyboard button");
 
-/* Convertions */
-const button = Number;
-
 class calculator {
   constructor(lastCalc, result) {
     this.lastCalc = lastCalc;
@@ -20,7 +17,7 @@ class calculator {
 
   //change values of the calculator screen
   updateScreen() {
-    this.lastCalc.innerText += this.currentOperation;
+    this.lastCalc += this.currentOperation;
   }
 }
 
