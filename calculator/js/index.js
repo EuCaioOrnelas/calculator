@@ -1,6 +1,10 @@
+/* Reserved for page functions */
 const lastCalc = document.querySelector("#last-calc");
 const result = document.querySelector("#result");
 const button = document.querySelectorAll("#keyboard button");
+
+/* Convertions */
+const button = Number;
 
 class calculator {
   constructor(lastCalc, result) {

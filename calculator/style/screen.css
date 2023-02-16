@@ -1,0 +1,22 @@
+#display {
+  margin-top: 54px;
+  padding-inline: 54px;
+}
+
+#last-calc {
+  text-align: right;
+  font-size: 20px;
+  line-height: 140%;
+  color: #6b6b6b;
+}
+#result {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  color: #ebebeb;
+}
+
+#result span {
+  font-size: 36px;
+  line-height: 140%;
+}
